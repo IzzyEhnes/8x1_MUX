@@ -1,3 +1,9 @@
+// Izzy Ehnes
+// m8x1.v, a 8x1 multiplexor, gate synthesis
+// Version: Icarus Verilog v. 11.0
+// Compile: $ iverilog -o m8x1 m8x1.v
+// Run: $ vvp m8x1
+
 module DecoderMod(s, o);
     input [2:0] s;
     output [0:7] o;
